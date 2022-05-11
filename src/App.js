@@ -13,7 +13,8 @@ import './assets/css/responsive.css';
 function App() {
   return (
     <div className="App">
-       
+        
+
         {/*Header Start*/}
         <header id="gamfi-header" class="gamfi-header-section transparent-header">
             <div class="menu-area menu-sticky">
@@ -353,7 +354,29 @@ function App() {
         </header>
         {/*Header End*/}
 
-               {/* modernizr js */}
+        {/* Banner Section Start */}
+        <div id="sc-banner" class="sc-banner banner-bg position-relative">
+            <div class="container">
+                <div class="banner-content text-center">
+                    <img class="banner-icon wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.7s" src="assets/images/icons/icon1.png" alt="icon-image"/>
+                    <h1 class="banner-title wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.7s">
+                        Metaverse Web 3.0 Gaming Launcepad & IGO
+                    </h1>
+                    <div class="description wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.7s">
+                        The next generation gaming ecosystem for IGOs and NFT
+                    </div>
+                    <a class="banner-btn wow fadeInUp black-shape-big" data-wow-delay="0.4s" data-wow-duration="0.7s" href="explore.html">
+                        <span class="btn-text">Explore IGO</span>
+                        <span class="hover-shape1"></span>
+                        <span class="hover-shape2"></span>
+                        <span class="hover-shape3"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {/* Banner Section End */}
+
+        {/* modernizr js */}
         <script src="assets/js/modernizr-2.8.3.min.js"></script>
         {/* jquery latest version */}
         <script src="assets/js/jquery.min.js"></script>
