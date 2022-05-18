@@ -245,7 +245,7 @@
         font-size: 14px;
     }
     .blog-detail-conent .blog-area .about-blog .blog-contact .next-item {
-        margin-left: ;
+        margin-left: 10px;
     }
     .latest-blog-area .latest-text h4{
        font-size: 19px;
@@ -261,7 +261,7 @@
         font-size: 12px;
     }
     .HomeMenuList ul li a{
-        font-size: 12px !importnat;
+        font-size: 12px !important;
     }
     .megaMenuRightSect .Menu_column{
         max-width: 180px;
@@ -349,19 +349,19 @@
     }
     .RodmapConetentbox4{
         min-height: 230px;
-        background: url(../images/kycimg/roadMapcpntentBg5.svg);
+        background: url(../img/kycimg/roadMapcpntentBg5.svg);
         background-position: left;
         background-repeat: no-repeat;
     }
     .RodmapConetentbox5{
         min-height: 260px;
-        background: url(../images/kycimg/roadMapcpntentBg3.svg);
+        background: url(../img/kycimg/roadMapcpntentBg3.svg);
         background-position: right;
         background-size: contain;
         background-repeat: no-repeat;
     }
     .RodmapConetentbox6 {
-        background: url(../images/kycimg/roadMapcpntentBg7.svg);
+        background: url(../img/kycimg/roadMapcpntentBg7.svg);
         min-height: 230px;
         background-repeat: no-repeat;
         background-size: cover;  
@@ -377,7 +377,7 @@
         min-height: 775px;
         top: 0px;
         width: 50px;
-        background: url(../images/kycimg/Roadmap2021.svg);
+        background: url(../img/kycimg/Roadmap2021.svg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -390,7 +390,7 @@
         min-height: 675px;
         bottom: -65px;
         width: 50px;
-        background: url(../images/kycimg/Roadmap2022.svg);
+        background: url(../img/kycimg/Roadmap2022.svg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -502,38 +502,38 @@
     }
     .RodmapConetentbox1{
         min-height: 158px;
-        background: url(../images/kycimg/roadMapcpntentBg1.svg);
+        background: url(../img/kycimg/roadMapcpntentBg1.svg);
         background-position: right;
         background-size: cover;
     }
     .RodmapConetentbox2{
         min-height: 185px;
-        background: url(../images/kycimg/roadMapcpntentBg5.svg);
+        background: url(../img/kycimg/roadMapcpntentBg5.svg);
         background-position: left;
         background-size: cover;
     }
     .RodmapConetentbox3{
         min-height: 158px;
-        background: url(../images/kycimg/roadMapcpntentBg2.svg);
+        background: url(../img/kycimg/roadMapcpntentBg2.svg);
         background-position: right;
         background-size: cover;
     }
     .RodmapConetentbox4{
         min-height: 216px;
-        background: url(../images/kycimg/roadMapcpntentBg6.svg);
+        background: url(../img/kycimg/roadMapcpntentBg6.svg);
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
     }
     .RodmapConetentbox5{
         min-height: 260px;
-        background: url(../images/kycimg/roadMapcpntentBg3.svg);
+        background: url(../img/kycimg/roadMapcpntentBg3.svg);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
     }
     .RodmapConetentbox6 {
-        background: url(../images/kycimg/roadMapcpntentBg7.svg);
+        background: url(../img/kycimg/roadMapcpntentBg7.svg);
         min-height: 230px;
         background-position: left;
         background-size: cover;
@@ -541,7 +541,7 @@
     }
     .RodmapConetentbox7{
         min-height: 185px;
-        background: url(../images/kycimg/roadMapcpntentBg4.svg);
+        background: url(../img/kycimg/roadMapcpntentBg4.svg);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat; 
@@ -846,7 +846,7 @@
         min-height: 750px;
         top: 0px;
         width: 50px;
-        background: url(../images/kycimg/Roadmap2021.svg);
+        background: url(../img/kycimg/Roadmap2021.svg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -859,7 +859,7 @@
         min-height: 650px;
         bottom: -10px;
         width: 50px;
-        background: url(../images/kycimg/Roadmap2022.svg);
+        background: url(../img/kycimg/Roadmap2022.svg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -1130,7 +1130,7 @@
     .project-details-conent .banner-bottom-content .social-icon-list li {
         margin-left: 0;
     }
-    .project-details-conent .project-item {;
+    .project-details-conent .project-item {
         padding: 35px 20px;
     }
     .project-details-conent .project-service{
@@ -2604,38 +2604,38 @@
     }
     .RodmapConetentbox1{
         min-height: 158px;
-        background: url(../images/kycimg/roadMapcpntentBg1.svg);
+        background: url(../img/kycimg/roadMapcpntentBg1.svg);
         background-position: right;
         background-size: cover;
     }
     .RodmapConetentbox2{
         min-height: 185px;
-        background: url(../images/kycimg/roadMapcpntentBg5.svg);
+        background: url(../img/kycimg/roadMapcpntentBg5.svg);
         background-position: left;
         background-size: cover;
     }
     .RodmapConetentbox3{
         min-height: 158px;
-        background: url(../images/kycimg/roadMapcpntentBg2.svg);
+        background: url(../img/kycimg/roadMapcpntentBg2.svg);
         background-position: right;
         background-size: cover;
     }
     .RodmapConetentbox4{
         min-height: 216px;
-        background: url(../images/kycimg/roadMapcpntentBg6.svg);
+        background: url(../img/kycimg/roadMapcpntentBg6.svg);
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
     }
     .RodmapConetentbox5{
         min-height: 260px;
-        background: url(../images/kycimg/roadMapcpntentBg3.svg);
+        background: url(../img/kycimg/roadMapcpntentBg3.svg);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
     }
     .RodmapConetentbox6 {
-        background: url(../images/kycimg/roadMapcpntentBg7.svg);
+        background: url(../img/kycimg/roadMapcpntentBg7.svg);
         min-height: 230px;
         background-position: left;
         background-size: cover;
@@ -2643,7 +2643,7 @@
     }
     .RodmapConetentbox7{
         min-height: 185px;
-        background: url(../images/kycimg/roadMapcpntentBg4.svg);
+        background: url(../img/kycimg/roadMapcpntentBg4.svg);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat; 
@@ -2776,38 +2776,38 @@
     }
     .RodmapConetentbox1{
         min-height: 158px;
-        background: url(../images/kycimg/roadMapcpntentBg1.svg);
+        background: url(../img/kycimg/roadMapcpntentBg1.svg);
         background-position: right;
         background-size: cover;
     }
     .RodmapConetentbox2{
         min-height: 185px;
-        background: url(../images/kycimg/roadMapcpntentBg5.svg);
+        background: url(../img/kycimg/roadMapcpntentBg5.svg);
         background-position: left;
         background-size: cover;
     }
     .RodmapConetentbox3{
         min-height: 158px;
-        background: url(../images/kycimg/roadMapcpntentBg2.svg);
+        background: url(../img/kycimg/roadMapcpntentBg2.svg);
         background-position: right;
         background-size: cover;
     }
     .RodmapConetentbox4{
         min-height: 216px;
-        background: url(../images/kycimg/roadMapcpntentBg6.svg);
+        background: url(../img/kycimg/roadMapcpntentBg6.svg);
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
     }
     .RodmapConetentbox5{
         min-height: 260px;
-        background: url(../images/kycimg/roadMapcpntentBg3.svg);
+        background: url(../img/kycimg/roadMapcpntentBg3.svg);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
     }
     .RodmapConetentbox6 {
-        background: url(../images/kycimg/roadMapcpntentBg7.svg);
+        background: url(../img/kycimg/roadMapcpntentBg7.svg);
         min-height: 230px;
         background-position: left;
         background-size: cover;
@@ -2815,7 +2815,7 @@
     }
     .RodmapConetentbox7{
         min-height: 185px;
-        background: url(../images/kycimg/roadMapcpntentBg4.svg);
+        background: url(../img/kycimg/roadMapcpntentBg4.svg);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat; 

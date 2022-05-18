@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
-/* @charset 'utf-8'; */
+/* @charset "utf-8"; */
 
 /** 
 * 
@@ -388,19 +388,19 @@ body .modal-backdrop {
     width: 252px;
     height: 100%;
     content: "";
-    background-image: url(../images/bg/header-shape1.png);
+    background-image: url(../img/bg/header-shape1.png);
     position: absolute;
     top: 0;
     background-repeat: no-repeat;
 }
 
 .gamfi-header-section.default-header:after {
-    background-image: url(../images/bg/header-shape1.png);
+    background-image: url(../img/bg/header-shape1.png);
     left: 0;
 }
 
 .gamfi-header-section.default-header:before {
-    background-image: url(../images/bg/header-shape2.png);
+    background-image: url(../img/bg/header-shape2.png);
     right: 0;
 }
 
@@ -893,7 +893,7 @@ body .modal-backdrop {
     z-index: 9;
     overflow: hidden;
     padding: 170px 0 225px;
-    background: url(../images/bg/banner-bg.jpg);
+    background: url(../img/bg/banner-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -962,7 +962,7 @@ body .modal-backdrop {
     04. Gamfi Breadcrumbs Section CSS
 --------------------------*/
 .gamfi-breadcrumbs-section {
-    background: url(../images/bg/breadcrumbs-bg.jpg);
+    background: url(../img/bg/breadcrumbs-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1073,7 +1073,7 @@ body .modal-backdrop {
 .gamfi-breadcrumbs-section.breadcrumbs-style2 {
     padding-top: 130px;
     padding-bottom: 115px;
-    background: url(../images/bg/breadcrumbs-bg2.jpg);
+    background: url(../img/bg/breadcrumbs-bg2.jpg);
     position: relative;
     background-position: bottom center;
     z-index: 2;
@@ -1450,7 +1450,7 @@ body .modal-backdrop {
     06. Gamfi Project Section CSS
 ---------------------------------------*/
 .gamfi-project-section {
-    background: url(../images/bg/project-bg.jpg);
+    background: url(../img/bg/project-bg.jpg);
     padding-top: 115px;
     padding-bottom: 105px;
     background-size: cover;
@@ -1513,7 +1513,7 @@ body .modal-backdrop {
     width: 197px;
     height: 35px;
     content: "";
-    background-image: url(../images/bg/shape-bg.png);
+    background-image: url(../img/bg/shape-bg.png);
     position: absolute;
     left: -30px;
     top: -7px;
@@ -1729,7 +1729,7 @@ body .modal-backdrop {
     width: 197px;
     height: 35px;
     content: "";
-    background-image: url(../images/bg/shape-bg.png);
+    background-image: url(../img/bg/shape-bg.png);
     position: absolute;
     left: -30px;
     top: -7px;
@@ -1843,7 +1843,7 @@ body .modal-backdrop {
 }
 
 .project-details-conent .project-item .hover-shape-inner {
-    background: url(../images/bg/project-details-banner.jpg);
+    background: url(../img/bg/project-details-banner.jpg);
 }
 
 .project-details-conent .project-value-inner {
@@ -2605,7 +2605,7 @@ body .modal-backdrop {
     width: 197px;
     height: 35px;
     content: "";
-    background-image: url(../images/bg/shape-bg.png);
+    background-image: url(../img/bg/shape-bg.png);
     position: absolute;
     left: -30px;
     top: -7px;
@@ -3169,24 +3169,24 @@ body .modal-backdrop {
     background-repeat: no-repeat;
 }
 
-/* .gamfi-tokenomics-section .tokenomics-left-right-shape:before {
-    background-image: url(../images/banner/left_shape.png);
+.gamfi-tokenomics-section .tokenomics-left-right-shape:before {
+    /* background-image: url(../img/banner/left_shape.png); */
     width: 614px;
     top: 0;
     left: 0;
 }
 
 .gamfi-tokenomics-section .tokenomics-left-right-shape:after {
-    background-image: url(../images/banner/right_shape.png);
+    /* background-image: url(../img/banner/right_shape.png); */
     bottom: 0;
     right: 0;
-} */
+}
 
 /* ------------------------------------
     14. Gamfi Team Section CSS
 ---------------------------------------*/
 .gamfi-team-section {
-    background: url(../images/bg/team-bg.jpg);
+    background: url(../img/bg/team-bg.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-color: #090a1a;
@@ -3530,7 +3530,7 @@ body .modal-backdrop {
     width: 197px;
     height: 35px;
     content: "";
-    background-image: url(../images/bg/shape-bg.png);
+    background-image: url(../img/bg/shape-bg.png);
     position: absolute;
     left: -30px;
     top: -7px;
@@ -3666,7 +3666,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .gamfi-footer-section .footer-area {
-    background: url(../images/bg/footer-bg.jpg);
+    background: url(../img/bg/footer-bg.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -3687,7 +3687,7 @@ body .gamfi-explore-content .project-item {
 
 .gamfi-footer-section .footer-listing .footer-icon-list i {
     color: #fff;
-    background: url(../images/icons/icon-image.png);
+    background: url(../img/icons/icon-image.png);
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -3849,7 +3849,7 @@ body .gamfi-explore-content .project-item {
 
 #shareIocns .popup-share-icons li i {
     color: #fff;
-    background: url(../images/icons/icon-image.png);
+    background: url(../img/icons/icon-image.png);
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -4807,7 +4807,7 @@ Kyc Upload Docs
     padding: 96px 0px 0px 0px;
 }
 .SignUp_SignIn_Form_SectBG {
-    background: url(../images/kycimg/signUpBgimage.svg);
+    background: url(../img/kycimg/signUpBgimage.svg);
     background-position: center center;
     background-size: cover;
     height: 340px;
@@ -4835,7 +4835,7 @@ Kyc Upload Docs
     z-index: 2;
 }
 .singUpformShadow{
-    background: url(../images/kycimg/BlurShadow.svg);
+    background: url(../img/kycimg/BlurShadow.svg);
     background-position: center center;
     background-size: cover;
     height: 340px;
@@ -5008,7 +5008,7 @@ Kyc Upload Docs
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url(../images/kycimg/roadmapScreenbg.svg);
+    background: url(../img/kycimg/roadmapScreenbg.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -5049,7 +5049,7 @@ Kyc Upload Docs
 }
 
 .RodmapConetentbox1{
-    background: url(../images/kycimg/roadMapcpntentBg1.svg);
+    background: url(../img/kycimg/roadMapcpntentBg1.svg);
     min-height: 253px;
     margin-top: 60px;
     background-repeat: no-repeat;
@@ -5057,7 +5057,7 @@ Kyc Upload Docs
     background-position: center center;
 }
 .RodmapConetentbox2{
-    background: url(../images/kycimg/roadMapcpntentBg5.svg);
+    background: url(../img/kycimg/roadMapcpntentBg5.svg);
     min-height: 216px;
     margin-top: 190px;
     background-repeat: no-repeat;
@@ -5065,21 +5065,21 @@ Kyc Upload Docs
     background-position: center center;
 }
 .RodmapConetentbox3{
-    background: url(../images/kycimg/roadMapcpntentBg2.svg);
+    background: url(../img/kycimg/roadMapcpntentBg2.svg);
     min-height: 216px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .RodmapConetentbox4{
-    background: url(../images/kycimg/roadMapcpntentBg6.svg);
+    background: url(../img/kycimg/roadMapcpntentBg6.svg);
     min-height: 253px;
     margin-top: 100px;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .RodmapConetentbox5{
-    background: url(../images/kycimg/roadMapcpntentBg3.svg);
+    background: url(../img/kycimg/roadMapcpntentBg3.svg);
     min-height: 290px;
     margin-top: 123px;
     background-repeat: no-repeat;
@@ -5091,7 +5091,7 @@ Kyc Upload Docs
     flex-direction: column;
 }
 .RodmapConetentbox6{
-    background: url(../images/kycimg/roadMapcpntentBg7.svg);
+    background: url(../img/kycimg/roadMapcpntentBg7.svg);
     min-height: 290px;
     margin-top: 253px;
     background-repeat: no-repeat;
@@ -5103,7 +5103,7 @@ Kyc Upload Docs
     flex-direction: column;
 }
 .RodmapConetentbox7{
-    background: url(../images/kycimg/roadMapcpntentBg4.svg);
+    background: url(../img/kycimg/roadMapcpntentBg4.svg);
     min-height: 216px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5173,7 +5173,7 @@ Kyc Upload Docs
     min-height: 825px;
     top: 0px;
     width: 50px;
-    background: url(../images/kycimg/Roadmap2021.svg);
+    background: url(../img/kycimg/Roadmap2021.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -5196,7 +5196,7 @@ Kyc Upload Docs
     min-height: 752px;
     bottom: -65px;
     width: 50px;
-    background: url(../images/kycimg/Roadmap2022.svg);
+    background: url(../img/kycimg/Roadmap2022.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -5218,7 +5218,7 @@ Kyc Upload Docs
 
 .gamfi_header_V2{
     min-height: 800px;
-    background: url(../images/bg/bgV2.png);
+    background: url(../img/bg/bgV2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5571,7 +5571,7 @@ Kyc Upload Docs
     width: 241px;
     height: 35px;
     content: "";
-    background-image: url(../images/bg/shapeBgV2.svg);
+    background-image: url(../img/bg/shapeBgV2.svg);
     position: absolute;
     left: -30px;
     top: -7px;
@@ -5631,9 +5631,9 @@ Kyc Upload Docs
 
 
 .gamfi-project-section.ProjectPools_Sect {
-    /*
-    background: url(../images/bg/project-bg.jpg);
-    */
+    
+    background: url(../img/bg/project-bg.jpg);
+   
     background: #090A1A;
     padding-top: 115px;
     padding-bottom: 105px;
@@ -5645,7 +5645,7 @@ Kyc Upload Docs
 
 .Key_Points_section .keyPointBg{
     position: absolute;
-    background: url(../images/bg/project-bg.png);
+    background: url(../img/bg/project-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -6580,7 +6580,7 @@ Kyc Upload Docs
     z-index: 9;
     overflow: hidden;
     padding: 170px 0 225px;
-    background: url(../images/bg/V3_Banner_BG.png);
+    background: url(../img/bg/V3_Banner_BG.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -7250,28 +7250,28 @@ Kyc Upload Docs
     color: #FFFFFF;
 }
 .TvlRightCardHeadings1{
-    background: url(../images/bg/TvlBg1.png);
+    background: url(../img/bg/TvlBg1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
 }
 
 .TvlRightCardHeadings2{
-    background: url(../images/bg/TvlBg2.png);
+    background: url(../img/bg/TvlBg2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
 }
 
 .TvlRightCardHeadings3{
-    background: url(../images/bg/TvlBg3.png);
+    background: url(../img/bg/TvlBg3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
 }
 
 .TvlRightCardHeadings4{
-    background: url(../images/bg/TvlBg4.png);
+    background: url(../img/bg/TvlBg4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
@@ -7937,7 +7937,7 @@ Kyc Upload Docs
 
 
 .gamfi-breadcrumbs-section.blog-breadcrumbs {
-    background: url(../images/blog/blog-bg.jpg);
+    background: url(../img/blog/blog-bg.jpg);
     background-size: cover;
     padding-top: 410px;
     padding-bottom: 45px;
@@ -7990,7 +7990,7 @@ Kyc Upload Docs
     content: "";
     height: 86px;
     width: 20px;
-    background: url(../images/blog/block-code.png);
+    background: url(../img/blog/block-code.png);
     top: 15px;
 }
 .blog-detail-conent .blog-area .blog-description .blockquote .des-active{
@@ -9190,7 +9190,7 @@ ProjectClasic
 
 
 .ProjectClasicSliderBG{
-    background: url(../images/bg/ProjectClasic_sliderBg.png);
+    background: url(../img/bg/ProjectClasic_sliderBg.png);
     min-height: 400px;
     width: 100%;
     background-position: center center;
@@ -9641,7 +9641,7 @@ ProjectClasic2
 .ProjectClasic2_Timer {
     width: 241.8px;
     height: 35px;
-    background-image: url(../images/bg/shape-bg.png);
+    background-image: url(../img/bg/shape-bg.png);
     background-size: cover;
     background-position: center center;
     direction: flex;
@@ -9996,7 +9996,7 @@ ProjectDetails2
 .First_Survivor_CityLeft_Timer{
     width: 345px;
     height: 50px;
-    background: url(../images/project/shapeTimerBg.svg);
+    background: url(../img/project/shapeTimerBg.svg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10440,7 +10440,7 @@ ProjectDetails2
     top: 0px;
     left: 0px;
     z-index: 0;
-    background: url(../images/bg/home4BG.jpg);
+    background: url(../img/bg/home4BG.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

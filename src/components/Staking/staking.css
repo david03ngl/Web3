@@ -1,0 +1,52 @@
+#card{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#cards{
+    padding: 10px;
+    width: 18rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+#staking>.col{
+    text-align: center;
+}
+
+#stakingContent{
+    align-items: center;
+    border-radius: 25px;
+}
+
+#stakingSummary{
+    align-items: center;
+    border-radius: 25px;
+}
+
+#stakingday{
+    margin-top: 0.5rem;
+}
+
+#table-transaction{
+    margin-top: 2rem;
+    border-radius: 15px !important;
+    margin-bottom: 2rem;
+}
+
+#confirm{
+    font-weight: bold;
+    width: 500px;
+}
+
+.totalBalance{
+    margin-top: 3rem;
+}
+
+#amount{
+    width: 450px;
+    border-style: none;
+    border-radius: 5px;
+}
