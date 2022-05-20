@@ -11,14 +11,14 @@ import '../assets/css/scmenu-main.css'
 import '../assets/css/slick-theme.min.css'
 import '../assets/css/slick.css'
 import '../assets/css/style.css'
-import logo from '../assets/img/logo.png'
+// import logo from '../assets/img/logo.png'
 import megamenu1 from '../assets/img/megaMenu/border-buttomShape.png'
 import megamenu2 from '../assets/img/megaMenu/index-V1.png'
 import megamenu3 from '../assets/img/megaMenu/index-V2.png'
 import megamenu4 from '../assets/img/megaMenu/index-V3.png'
 import megamenu5 from '../assets/img/megaMenu/index-V4.png'
 import logodark from '../assets/img/logo-dark.png'
-import connectWallet from './ConnectWallet/connectWallet';
+import connectWallet from './ConnectWallet/connectWallet.js';
 
 const Header = () =>{
     return(
@@ -41,16 +41,12 @@ const Header = () =>{
                                 <ul class="nav-menu">
                                     <li><a style={{cursor: 'pointer'}}>Home</a>
                                         <ul class="sub-menu">
-                                            <li><a href="error">Home 1</a></li>
-                                            <li><a href="error">Home 2</a></li>
-                                            <li><a href="error">Home 3</a></li>
-                                            <li><a href="error">Home 4</a></li>
+                                            <li><a href="error">Home</a></li>
                                         </ul>
                                     </li>
                                     <li><a style={{cursor: 'pointer'}}>Staking</a>
                                         <ul class="sub-menu">
-                                            <li><a href="staking">Staking 1</a></li>
-                                            <li><a href="staking">Staking 2</a></li>
+                                            <li><a href="staking">Staking</a></li>
                                         </ul>
                                     </li>
                                     <li class="megaMenuHov"><a href="#">Pages +</a>
@@ -214,7 +210,8 @@ const Header = () =>{
                                     </a>
                                 </li>
                                 <li>
-                                    <button type="button" class="readon white-btn hover-shape" onClick={connectWallet}> Connect Wallet
+                                    <button type="button" class="readon white-btn hover-shape" onClick={connectWallet}>
+                                        Connect
                                     </button>
                                 </li>
                             </ul>

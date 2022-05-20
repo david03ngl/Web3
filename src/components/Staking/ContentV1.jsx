@@ -40,7 +40,7 @@ const ContentV1 = () =>{
                             <h3>Staking</h3>
                             <div className='project-item justify-content-center'>
                                 <div class="project-info border-bottom-2">
-                                    <h5 class="flex-row-reverse"> Available Amount: 256.50 <span class="buse">$COS</span></h5>
+                                    <h5 class="flex-row-reverse"> Available Amount: 256.50 <span class="buse">$COZ</span></h5>
                                 </div>
 
                                 <div class="project-form-list">

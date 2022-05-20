@@ -3,7 +3,7 @@ import Web3Modal from "web3modal";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import WalletLink from "walletlink";
 
-// * This is the INFURA Project ID
+// * This is the INFURA Project ID  
 const INFURA_ID = "1ab9372ed24a4e65b940e6aab8624f55";
 
 const providerOptions = {
@@ -30,7 +30,7 @@ const providerOptions = {
   },
 };
 
-let account = null;
+let selectedAccount = null;
 
 const web3Modal = new Web3Modal({
   network: "rinkeby", // optional
@@ -40,15 +40,21 @@ const web3Modal = new Web3Modal({
 });
 
 async function connectWallet() {
+  window.userWalletAddress = null;
   web3Modal.clearCachedProvider();
   let provider = await web3Modal.connect();
   let web3 = new Web3(provider);
   await window.ethereum.send("eth_requestAccounts");
-
   let accounts = await web3.eth.getAccounts();
-  account = accounts[0];
+  selectedAccount = accounts[0];
 
-  console.log(account);
+  console.log({message: "This is the selected account: ",selectedAccount});
+
+  window.userWalletAddress = selectedAccount;
+
+  window.localStorage.setItem("userWalletAddress", selectedAccount);
+  
+
 }
 
 export default connectWallet;

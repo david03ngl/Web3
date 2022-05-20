@@ -7,20 +7,28 @@ import Staking from './pages/Staking/Staking'
 import {
   Routes,
   Route,
-  BrowserRouter
+  HashRouter
 } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
       <Routes>
       <Route path="/" exact element={<Home/>}/>
       <Route path="/error" element={<Error/>}/>
       <Route path="/staking" element={<Staking/>}></Route>
     </Routes>
-  </BrowserRouter>,
+  </HashRouter>,
+
+//   <BrowserRouter>
+//   <Routes>
+//   <Route path="/" exact element={<Home/>}/>
+//   <Route path="/error" element={<Error/>}/>
+//   <Route path="/staking" element={<Staking/>}></Route>
+// </Routes>
+// </BrowserRouter>
   rootElement
 );
 
