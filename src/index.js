@@ -7,20 +7,21 @@ import Staking from './pages/Staking/Staking'
 import {
   Routes,
   Route,
-  HashRouter
+  HashRouter, BrowserRouter
 } from "react-router-dom";
+import IpfsRouter from 'ipfs-react-router';
 import reportWebVitals from './reportWebVitals';
 
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <HashRouter>
+  <IpfsRouter>
       <Routes>
       <Route path="/" exact element={<Home/>}/>
       <Route path="/error" element={<Error/>}/>
       <Route path="/staking" element={<Staking/>}></Route>
     </Routes>
-  </HashRouter>,
+  </IpfsRouter>,
 
 //   <BrowserRouter>
 //   <Routes>
