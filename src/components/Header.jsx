@@ -41,12 +41,12 @@ const Header = () =>{
                                 <ul class="nav-menu">
                                     <li><a style={{cursor: 'pointer'}}>Home</a>
                                         <ul class="sub-menu">
-                                            <li><a href="error">Home</a></li>
+                                            <li><a href="#/error">Home</a></li>
                                         </ul>
                                     </li>
                                     <li><a style={{cursor: 'pointer'}}>Staking</a>
                                         <ul class="sub-menu">
-                                            <li><a href="staking">Staking</a></li>
+                                            <li><a href="#/staking">Staking</a></li>
                                         </ul>
                                     </li>
                                     <li class="megaMenuHov"><a href="#">Pages +</a>

@@ -30,7 +30,7 @@ const ContentV1 = () =>{
                 <Stack className='cards justify-content-center' id='card' direction="horizontal" gap={3}>
                     <div className="card bg-secondary justify-content-center" id='cards'><h5>Pool</h5></div>
                     <div className="card bg-secondary justify-content-center" id='cards'><h5>Staker</h5></div>
-                    <div className="card bg-secondary justify-content-center" id='cards'><h5>Max</h5></div>
+                    <div className="card bg-secondary justify-content-center" id='cards'><h5>Generated</h5></div>
                 </Stack>
                 </div>
                 
